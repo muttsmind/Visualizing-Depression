@@ -1,0 +1,21 @@
+trial_id,left_image_id,right_image_id,trial_index,prompt_id,prompt_text,final_trial_index,selection_group,pair_group,pair_families,importance_r_drop,importance_rmse_increase
+T007,IMG_023,IMG_010,7,P07,Which image feels harder to leave?,1,anchor,blend,anchor+blend,0.04007784244179691,0.4691865374286026
+T036,IMG_004,IMG_055,36,P04,Which image feels more like the background of your day?,2,anchor,foil,anchor+foil,0.033078928499525984,0.37340878134309907
+T022,IMG_034,IMG_009,22,P02,Which image feels more familiar right now?,3,anchor,blend,anchor+blend,0.027640418814660506,0.3146213449711466
+T001,IMG_051,IMG_010,1,P01,Which image feels closer to your past week?,4,anchor,ambiguous,ambiguous+anchor,0.027605238932386644,0.3458994510899247
+T026,IMG_030,IMG_005,26,P07,Which image feels harder to leave?,5,blend,blend,anchor+blend,0.02611332640138664,0.3202970586382845
+T018,IMG_040,IMG_029,18,P10,Which image feels more like the last few mornings?,6,blend,blend,blend,0.024873565469273662,0.28931268964367707
+T031,IMG_037,IMG_025,31,P11,Which image feels more like the end of the day?,7,blend,blend,blend,0.024097597797055115,0.2934804236798998
+T020,IMG_004,IMG_038,20,P12,Which image feels more like a place you have been in recently?,8,blend,blend,anchor+blend,0.023324045529856785,0.25587107353911076
+T028,IMG_036,IMG_009,28,P08,Which image feels more difficult to describe?,9,blend,blend,anchor+blend,0.022835214748028743,0.28034508034794126
+T021,IMG_024,IMG_014,21,P01,Which image feels closer to your past week?,10,blend,blend,anchor+blend,0.02222478995084387,0.264909157186362
+T032,IMG_050,IMG_030,32,P12,Which image feels more like a place you have been in recently?,11,blend,ambiguous,ambiguous+blend,0.020825677407303345,0.2327123835541025
+T003,IMG_003,IMG_031,3,P03,Which image would you rather move away from?,12,blend,blend,anchor+blend,0.017620203165961912,0.18674920938676554
+T027,IMG_005,IMG_052,27,P07,Which image feels harder to leave?,13,ambiguous,ambiguous,ambiguous+anchor,0.01960934139843018,0.23215581871589297
+T016,IMG_013,IMG_042,16,P08,Which image feels more difficult to describe?,14,ambiguous,ambiguous,ambiguous+anchor,0.01697061541563727,0.2008050041272016
+T039,IMG_045,IMG_014,39,P08,Which image feels more difficult to describe?,15,ambiguous,ambiguous,ambiguous+anchor,0.013853025841545796,0.18468597056727543
+T025,IMG_027,IMG_042,25,P05,Which image feels more emotionally loud?,16,ambiguous,ambiguous,ambiguous+blend,0.013608381727324148,0.15972553534595146
+T040,IMG_044,IMG_006,40,P08,Which image feels more difficult to describe?,17,ambiguous,ambiguous,ambiguous+anchor,0.013095339287125363,0.17722972299012607
+T011,IMG_054,IMG_045,11,P03,Which image would you rather move away from?,18,ambiguous,foil,ambiguous+foil,0.007621991896287872,0.09820059538829984
+T009,IMG_007,IMG_058,9,P01,Which image feels closer to your past week?,19,foil,foil,anchor+foil,0.01852323919371912,0.2125702130020004
+T030,IMG_037,IMG_063,30,P10,Which image feels more like the last few mornings?,20,foil,foil,blend+foil,0.014998006639827643,0.17653429937493836

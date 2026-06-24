@@ -1,0 +1,52 @@
+{
+  "baseline_full_model_metrics_on_input_data": {
+    "pearson_r": 0.7268777330875346,
+    "rmse": 7.856195898755707,
+    "mae": 6.049326582269354,
+    "r2": 0.5210751502803945
+  },
+  "n_final": 20,
+  "quotas_requested": {
+    "anchor": 4,
+    "blend": 8,
+    "ambiguous": 6,
+    "foil": 2
+  },
+  "selected_counts_by_selection_group": {
+    "blend": 8,
+    "ambiguous": 6,
+    "anchor": 4,
+    "foil": 2
+  },
+  "selected_counts_by_pair_group": {
+    "blend": 9,
+    "ambiguous": 7,
+    "foil": 4
+  },
+  "selected_counts_by_family_presence": {
+    "anchor": 14,
+    "blend": 12,
+    "ambiguous": 8,
+    "foil": 4
+  },
+  "available_trials_by_family_presence": {
+    "anchor": 19,
+    "blend": 25,
+    "ambiguous": 14,
+    "foil": 12
+  },
+  "unmet_quotas": {
+    "anchor": 0,
+    "blend": 0,
+    "ambiguous": 0,
+    "foil": 0
+  },
+  "mean_selected_importance_r_drop": 0.021429839527898877,
+  "max_selected_importance_r_drop": 0.04007784244179691,
+  "files": {
+    "trial_importance": "selected_final_trials\\trial_importance.csv",
+    "selected_trial_bank": "selected_final_trials\\selected_20_trial_bank.csv",
+    "filtered_responses": "selected_final_trials\\visual_test_results_20.csv"
+  },
+  "next_step": "Retrain/evaluate 01_train_choice_calibrated_4d.py using the selected trial bank and filtered responses to estimate reduced-test performance."
+}

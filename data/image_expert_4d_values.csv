@@ -1,0 +1,65 @@
+image_id,image_path,family,module,motif,note,seed,expert_depletion,expert_fog,expert_disconnection,expert_burden
+IMG_001,,anchor,energy,winged_mantle,single-dim anchor for depletion,2322554251,0.22,0.1,0.12,0.18
+IMG_002,,anchor,energy,tidal_pour,single-dim anchor for depletion,2906471226,0.38,0.1,0.12,0.18
+IMG_003,,anchor,energy,folded_column,single-dim anchor for depletion,2933631925,0.6,0.1,0.12,0.18
+IMG_004,,anchor,energy,mist_window,single-dim anchor for depletion,3421045335,0.82,0.1,0.12,0.18
+IMG_005,,anchor,clarity,splinter_cloud,single-dim anchor for fog,511102617,0.16,0.22,0.12,0.14
+IMG_006,,anchor,clarity,central_cavern,single-dim anchor for fog,1126234134,0.16,0.38,0.12,0.14
+IMG_007,,anchor,clarity,paired_lobes,single-dim anchor for fog,2283111,0.16,0.6,0.12,0.14
+IMG_008,,anchor,clarity,island_gap,single-dim anchor for fog,2266365591,0.16,0.82,0.12,0.14
+IMG_009,,anchor,connection,eclipse_twins,single-dim anchor for disconnection,2637852453,0.12,0.12,0.22,0.16
+IMG_010,,anchor,connection,overhead_mass,single-dim anchor for disconnection,2466103400,0.12,0.12,0.38,0.16
+IMG_011,,anchor,connection,sunken_body,single-dim anchor for disconnection,1534835291,0.12,0.12,0.6,0.16
+IMG_012,,anchor,connection,root_plume,single-dim anchor for disconnection,1565817064,0.12,0.12,0.82,0.16
+IMG_013,,anchor,burden,winged_mantle,single-dim anchor for burden,1840327392,0.16,0.14,0.12,0.22
+IMG_014,,anchor,burden,tidal_pour,single-dim anchor for burden,430310457,0.16,0.14,0.12,0.38
+IMG_015,,anchor,burden,folded_column,single-dim anchor for burden,1675975348,0.16,0.14,0.12,0.6
+IMG_016,,anchor,burden,mist_window,single-dim anchor for burden,1157713060,0.16,0.14,0.12,0.82
+IMG_017,,blend,energy,splinter_cloud,blend of depletion and fog,412682267,0.72,0.46,0.22,0.16999999999999998
+IMG_018,,blend,energy,central_cavern,blend of depletion and fog,1937760669,0.6,0.6,0.12,0.22
+IMG_019,,blend,energy,paired_lobes,blend of depletion and fog,3132370825,0.8,0.28,0.16999999999999998,0.12
+IMG_020,,blend,clarity,island_gap,blend of depletion and fog,1209916500,0.54,0.74,0.22,0.16999999999999998
+IMG_021,,blend,energy,eclipse_twins,blend of depletion and disconnection,3291614093,0.72,0.22,0.46,0.22
+IMG_022,,blend,energy,overhead_mass,blend of depletion and disconnection,3302037457,0.6,0.12,0.6,0.12
+IMG_023,,blend,energy,sunken_body,blend of depletion and disconnection,3376077206,0.8,0.16999999999999998,0.28,0.16999999999999998
+IMG_024,,blend,connection,root_plume,blend of depletion and disconnection,1999300818,0.54,0.22,0.74,0.22
+IMG_025,,blend,energy,winged_mantle,blend of depletion and burden,2277304616,0.72,0.12,0.16999999999999998,0.46
+IMG_026,,blend,energy,tidal_pour,blend of depletion and burden,1568095680,0.6,0.16999999999999998,0.22,0.6
+IMG_027,,blend,energy,folded_column,blend of depletion and burden,2127546808,0.8,0.22,0.12,0.28
+IMG_028,,blend,burden,mist_window,blend of depletion and burden,2309353125,0.54,0.12,0.16999999999999998,0.74
+IMG_029,,blend,clarity,splinter_cloud,blend of fog and disconnection,3620832353,0.16999999999999998,0.72,0.46,0.16999999999999998
+IMG_030,,blend,clarity,central_cavern,blend of fog and disconnection,2903856936,0.22,0.6,0.6,0.22
+IMG_031,,blend,clarity,paired_lobes,blend of fog and disconnection,2958600417,0.12,0.8,0.28,0.12
+IMG_032,,blend,connection,island_gap,blend of fog and disconnection,3239358027,0.16999999999999998,0.54,0.74,0.16999999999999998
+IMG_033,,blend,clarity,eclipse_twins,blend of fog and burden,4126346626,0.22,0.72,0.12,0.46
+IMG_034,,blend,clarity,overhead_mass,blend of fog and burden,908888579,0.12,0.6,0.16999999999999998,0.6
+IMG_035,,blend,clarity,sunken_body,blend of fog and burden,3839201800,0.16999999999999998,0.8,0.22,0.28
+IMG_036,,blend,burden,root_plume,blend of fog and burden,1945413271,0.22,0.54,0.12,0.74
+IMG_037,,blend,connection,winged_mantle,blend of disconnection and burden,3870961050,0.12,0.12,0.72,0.46
+IMG_038,,blend,connection,tidal_pour,blend of disconnection and burden,422553763,0.16999999999999998,0.16999999999999998,0.6,0.6
+IMG_039,,blend,connection,folded_column,blend of disconnection and burden,2722906994,0.22,0.22,0.8,0.28
+IMG_040,,blend,burden,mist_window,blend of disconnection and burden,3137678846,0.12,0.12,0.54,0.74
+IMG_041,,ambiguous,burden,splinter_cloud,dark but organized,2803780397,0.28,0.18,0.22,0.72
+IMG_042,,ambiguous,clarity,central_cavern,foggy but calm,2558148301,0.22,0.78,0.18,0.2
+IMG_043,,ambiguous,connection,paired_lobes,fragmented but light,3855561011,0.18,0.34,0.76,0.16
+IMG_044,,ambiguous,burden,island_gap,heavy but symmetrical,2925043715,0.34,0.16,0.18,0.78
+IMG_045,,ambiguous,energy,eclipse_twins,slowed but spacious,4011813675,0.72,0.24,0.48,0.18
+IMG_046,,ambiguous,clarity,overhead_mass,diffuse but connected,2896604264,0.18,0.74,0.18,0.28
+IMG_047,,ambiguous,connection,sunken_body,distant but clean,232165790,0.18,0.2,0.78,0.22
+IMG_048,,ambiguous,energy,root_plume,dense but not burdened,1161227007,0.46,0.22,0.26,0.26
+IMG_049,,ambiguous,clarity,winged_mantle,energetic chaos,619298560,0.2,0.52,0.44,0.22
+IMG_050,,ambiguous,burden,tidal_pour,quiet pressure,3966767380,0.4,0.24,0.22,0.64
+IMG_051,,ambiguous,connection,folded_column,faded separation,3343393600,0.26,0.6,0.62,0.2
+IMG_052,,ambiguous,energy,mist_window,sunken but clear,3781435020,0.68,0.18,0.22,0.46
+IMG_053,,foil,burden,splinter_cloud,dark foil,1718293669,0.24,0.24,0.18,0.34
+IMG_054,,foil,clarity,central_cavern,pale fog foil,3893290726,0.18,0.62,0.14,0.16
+IMG_055,,foil,connection,paired_lobes,wide distance foil,3653404095,0.12,0.18,0.6,0.2
+IMG_056,,foil,burden,island_gap,compressed foil,3175913462,0.28,0.16,0.14,0.58
+IMG_057,,foil,connection,eclipse_twins,spacious low-burden foil,2947650685,0.2,0.24,0.44,0.14
+IMG_058,,foil,energy,overhead_mass,dense low-fog foil,1455502281,0.42,0.12,0.18,0.3
+IMG_059,,foil,clarity,sunken_body,soft low-burden foil,2195595287,0.2,0.52,0.16,0.18
+IMG_060,,foil,connection,root_plume,split low-fog foil,2248330803,0.18,0.18,0.64,0.14
+IMG_061,,foil,burden,winged_mantle,weighted but coherent foil,3820284729,0.34,0.12,0.16,0.66
+IMG_062,,foil,clarity,tidal_pour,blurred middle foil,2277012166,0.32,0.48,0.24,0.22
+IMG_063,,foil,energy,folded_column,restless foil,3358907740,0.54,0.36,0.22,0.22
+IMG_064,,foil,clarity,mist_window,mixed neutral foil,450071421,0.28,0.3,0.28,0.28

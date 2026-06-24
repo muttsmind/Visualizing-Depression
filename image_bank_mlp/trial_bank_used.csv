@@ -1,0 +1,41 @@
+trial_id,left_image_id,right_image_id,trial_index,prompt_id,prompt_text
+T001,IMG_051,IMG_010,1,P01,Which image feels closer to your past week?
+T002,IMG_047,IMG_058,2,P02,Which image feels more familiar right now?
+T003,IMG_003,IMG_031,3,P03,Which image would you rather move away from?
+T004,IMG_060,IMG_042,4,P04,Which image feels more like the background of your day?
+T005,IMG_058,IMG_042,5,P05,Which image feels more emotionally loud?
+T006,IMG_022,IMG_019,6,P06,Which image feels more like your current inner weather?
+T007,IMG_023,IMG_010,7,P07,Which image feels harder to leave?
+T008,IMG_033,IMG_037,8,P08,Which image feels more difficult to describe?
+T009,IMG_007,IMG_058,9,P01,Which image feels closer to your past week?
+T010,IMG_017,IMG_013,10,P02,Which image feels more familiar right now?
+T011,IMG_054,IMG_045,11,P03,Which image would you rather move away from?
+T012,IMG_040,IMG_026,12,P04,Which image feels more like the background of your day?
+T013,IMG_022,IMG_062,13,P05,Which image feels more emotionally loud?
+T014,IMG_060,IMG_035,14,P06,Which image feels more like your current inner weather?
+T015,IMG_014,IMG_045,15,P07,Which image feels harder to leave?
+T016,IMG_013,IMG_042,16,P08,Which image feels more difficult to describe?
+T017,IMG_004,IMG_043,17,P09,Which image pulls your attention more?
+T018,IMG_040,IMG_029,18,P10,Which image feels more like the last few mornings?
+T019,IMG_024,IMG_033,19,P11,Which image feels more like the end of the day?
+T020,IMG_004,IMG_038,20,P12,Which image feels more like a place you have been in recently?
+T021,IMG_024,IMG_014,21,P01,Which image feels closer to your past week?
+T022,IMG_034,IMG_009,22,P02,Which image feels more familiar right now?
+T023,IMG_025,IMG_037,23,P03,Which image would you rather move away from?
+T024,IMG_023,IMG_008,24,P05,Which image feels more emotionally loud?
+T025,IMG_027,IMG_042,25,P05,Which image feels more emotionally loud?
+T026,IMG_030,IMG_005,26,P07,Which image feels harder to leave?
+T027,IMG_005,IMG_052,27,P07,Which image feels harder to leave?
+T028,IMG_036,IMG_009,28,P08,Which image feels more difficult to describe?
+T029,IMG_031,IMG_028,29,P09,Which image pulls your attention more?
+T030,IMG_037,IMG_063,30,P10,Which image feels more like the last few mornings?
+T031,IMG_037,IMG_025,31,P11,Which image feels more like the end of the day?
+T032,IMG_050,IMG_030,32,P12,Which image feels more like a place you have been in recently?
+T033,IMG_042,IMG_048,33,P01,Which image feels closer to your past week?
+T034,IMG_062,IMG_019,34,P02,Which image feels more familiar right now?
+T035,IMG_018,IMG_038,35,P03,Which image would you rather move away from?
+T036,IMG_004,IMG_055,36,P04,Which image feels more like the background of your day?
+T037,IMG_015,IMG_057,37,P05,Which image feels more emotionally loud?
+T038,IMG_036,IMG_060,38,P06,Which image feels more like your current inner weather?
+T039,IMG_045,IMG_014,39,P08,Which image feels more difficult to describe?
+T040,IMG_044,IMG_006,40,P08,Which image feels more difficult to describe?
