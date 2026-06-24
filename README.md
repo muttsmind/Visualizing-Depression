@@ -406,7 +406,7 @@ image nuisance:   64 × nuisance_dim
 
 These are also indexed by chosen/rejected image ID, but they are not concatenated into the `12D` trial input. They enter later in the choice-reconstruction decoder.
 
-## 12. Code map
+## 13. Code map
 
 | File | Role |
 |---|---|
@@ -418,7 +418,7 @@ These are also indexed by chosen/rejected image ID, but they are not concatenate
 
 ---
 
-## 13. Minimal run notes
+## 14. Minimal run notes
 
 Typical flow:
 
