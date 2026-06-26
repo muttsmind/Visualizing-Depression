@@ -3,9 +3,34 @@
 This project builds a pairwise visual test around abstract Rorschach-like images.
 Participants choose between two images across multiple trials. Those choices are used to infer a 4D visual profile and predict CES-D depressive-symptom scores.
 
-This is a research/measurement prototype, not a clinical diagnostic tool.
+This is a research/measurement prototype, not a clinical diagnostic tool!!!
+
+## Contents
+
+- [1. Core idea](#1-core-idea)
+- [2. Image bank](#2-image-bank)
+- [3. Modules](#3-modules)
+- [4. Motifs vs module style](#4-motifs-vs-module-style)
+  - [Module style](#module-style)
+  - [Motif style](#motif-style)
+  - [Why do motif and module style overlap?](#why-do-motif-and-module-style-overlap)
+- [5. Rendering grammar](#5-rendering-grammar)
+- [6. Pairwise task](#6-pairwise-task)
+- [7. Model structure](#7-model-structure)
+- [8. Bias and nuisance terms](#8-bias-and-nuisance-terms)
+  - [Image bias](#image-bias)
+  - [Image nuisance embedding](#image-nuisance-embedding)
+  - [Participant nuisance vector](#participant-nuisance-vector)
+  - [Why this matters](#why-this-matters)
+- [9. Image-vector calibration](#9-image-vector-calibration)
+- [10. Training objective](#10-training-objective)
+- [11. Trial selection](#11-trial-selection)
+- [12. MODEL DESIGN](#12-model-design)
+- [13. Code map](#13-code-map)
+- [14. Minimal run notes](#14-minimal-run-notes)
 
 ---
+
 
 ## 1. Core idea
 
@@ -185,6 +210,11 @@ The goal is not to claim that a single image literally reveals the subconscious.
 
 ## 7. Model structure
 
+### Model diagram
+
+![Model diagram](graph.png)
+
+
 Each trial is represented as:
 
 ```text
@@ -193,12 +223,12 @@ chosen image 4D vector + rejected image 4D vector + difference vector = 12D
 
 The model encodes each trial, pools information across all trials, then produces:
 
-1. `profile4` — the interpretable participant profile:
+1. `profile4` -- the interpretable participant profile:
    - `depletion`
    - `fog`
    - `disconnection`
    - `burden`
-2. `nuisance` — a non-clinical taste/style vector used only to explain choices.
+2. `nuisance` -- a non-clinical taste/style vector used only to explain choices.
 
 The 4D profile predicts CES-D.
 
